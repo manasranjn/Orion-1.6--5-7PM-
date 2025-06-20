@@ -53,7 +53,3 @@ Pre-defined texts used inside the body of the html document.
 ## Horizontal Rule Tag:- <hr>
 -It is a single tag used to create a horizontal line.
 -It breaks the line and move the cursor to the next line, but before moving the cursor to the next line, it creates a horizontal line throughout the page.
-
-## Span Tag:- <span> .... </span>
--It is used to create a text or a block of text.
--It is an inline element.
