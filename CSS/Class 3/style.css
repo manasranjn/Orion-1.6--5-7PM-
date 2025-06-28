@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    background-color: royalblue;
+    height: 100px;
+    width: 200px;
+    display: block;
+}
+.inline{
+    background-color: chocolate;
+    height: 100px;
+    width: 200px;
+    display: inline;
+}
+.inline-block{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+.none{
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 200px;
+    display: none;
+}
+
+.parent{
+    height: 700px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: left; */
+    /* justify-content: right; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: center; */
+    gap: 10px;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+}
+.child{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(232, 153, 50);
+}
+
+nav{
+    display: flex;
+    margin: 0 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.para
+{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.hero{
+    display: flex;
+    background-color:rgb(236, 198, 153);
+    padding: 40px 60px;
+}
+.left-content{
+    width: 50%;
+}
+.left-content h4{
+    color: orangered;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.left-content h1{
+    margin: 30px 0;
+    width: 60%;
+    font-size: 35px;
+}
+.left-content h1 span{
+    color: orangered;
+}
+.left-content p{
+    font-size: 18px;
+    color: rgb(73, 72, 72);
+    margin-bottom: 30px;
+}
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.info button{
+    background-color: orangered;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.right-content{
+    width: 50%;
+}
+.right-content img{
+    width: 100%;
+}
