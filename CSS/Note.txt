@@ -149,7 +149,7 @@ Values:-
 align-items: flex-start/center/flex-end ;
 
 3. justify-content:- This is used to align the elements horizontally in the flex area.
-Values:- 
+Values:-
 justify-content: start/center/end/space-between/space-around/space-evenly
 
 # Grid-Layout:-
