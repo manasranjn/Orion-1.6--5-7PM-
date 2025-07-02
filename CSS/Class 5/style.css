@@ -1,0 +1,109 @@
+.rotate{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: red;
+    /* transform: rotateX(75deg); */
+    /* transform: rotateY(35deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotate(40deg); */
+
+}
+.scale{
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px;
+    background-color: green;
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: scale(2, 1.5); */
+    transition: transform 2s ease-in-out;
+}
+.scale:hover{
+    transform: scale(1.5);
+}
+.translate{
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px;
+    background-color: blue;
+    /* transform: translateX(100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translate(100px, 100px); */
+}
+.skew{
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px;
+    background-color: yellow;
+    /* transform: skewX(30deg); */
+    /* transform: skewY(30deg); */
+    /* transform: skew(30deg, 30deg); */
+}
+
+#btn{
+    background-color: blueviolet;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    transition: transform 0.5s ease-in-out;
+}
+#btn:active{
+    background-color: cornflowerblue;
+    transform: scale(0.9);
+}
+
+.static{
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px;
+    background-color: yellow;
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+.relative{
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px;
+    background-color: green;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    /* z-index: -1; */
+}
+
+.absolute{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    /* top: 20px; */
+    /* left: 20px; */
+    bottom: 0;
+    right: 0;
+}
+
+/* .fixed{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+} */
+.sticky{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    left: 20px;
+}
