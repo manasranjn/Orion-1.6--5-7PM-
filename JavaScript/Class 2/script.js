@@ -120,11 +120,27 @@ let arr = [10, 20, 30, 40, 50, 607, 80]
 //     console.log(arr[i]);
 // }
 
-for (let elemenet of arr) {
-    console.log(elemenet);
-}
+// for (let element of arr) {
+//     console.log(element);
+// }
 
-let str = "Hello everyone"
-for (let s of str) {
-    console.log(s);
+// let str = "Hello everyone"
+// for (let s of str) {
+//     console.log(s);
+// }
+
+//? for-in loop
+let obj = {
+    name: 'ABCD',
+    age: 20,
+    gender: "Male"
+}
+// console.log(obj.name);
+// console.log(obj["gender"]);
+
+for (let k in obj) {
+    console.log(k);
+    console.log(obj[k]);
+
+
 }

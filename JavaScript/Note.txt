@@ -191,7 +191,7 @@ do{
 ## for-of loop:-
 - for-of is a loop that iterates through the values of an iterable (such as an array or string).
 - It directly provides each value of the iterable, which can be processed within the loop.
-Syntax:- 
+Syntax:-
 for(let iterator of variable){
     //instruction
 }
