@@ -520,6 +520,14 @@ Note :- if child & parent have same property , child methods will be used(method
 502 -> bad gateway
 504 -> gateway timeout
 
+# Prototype (Special Object) in JavaScript :-
+-In JavaScript, every object has an internal property called prototype, which acts as a blueprint for other objects. 
+-Prototypes allow objects to inherit properties and methods from other objects, promoting code reusability.
+
+Key Points:-
+1. Setting Prototype: We can set the prototype using '__proto__' or 'Object.create()'.
+2. Method Overriding: If an object and its prototype have the same method, the object's method takes precedence.
+
 # Sync in Javascript :-
 ## Synchronous :-
 -Synchronous means the code runs in a particular sequence of instruction given in the program.
