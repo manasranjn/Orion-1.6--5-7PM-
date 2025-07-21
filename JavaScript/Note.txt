@@ -578,6 +578,8 @@ async function always returns a promise.
 syntax :- async function myFunc(){ // statement }
 Note :- await pauses the execution of its surrounding async function until the promise is settled.
 
+# Hoisting in JS:-
+
 # Operations on Objects in JS:-
 ## Add a new Key:- 
 
@@ -586,5 +588,3 @@ Note :- await pauses the execution of its surrounding async function until the p
 ## Delete Operator in Object:-
 
 13) sort() method :-
-
-# Hoisting in JS:-
